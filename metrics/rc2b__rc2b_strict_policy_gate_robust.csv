@@ -1,0 +1,11 @@
+check,passed,detail
+policy_level_validation_proxy_available_all_candidates,True,selection_rows=150; expected>=150
+exactly_one_policy_selected_per_seed_task,True,selected_checkpoints=25; expected=25
+no_final_test_used_for_selection_declared,True,selection trace marks no_final_test_used_for_selection=True for every candidate row.
+rc2b_at_least_fixed_rc1b_with_tolerance,False,RC2b=0.8880; RC1b=0.9010; delta=-0.0130
+rc2b_beats_best_replay_margin,True,RC2b=0.8880; best_replay=0.8390
+rc2b_within_tolerance_of_best_deployable_mmals,False,RC2b=0.8880; best_mmals=0.9010; best=paired_context_gap_selected
+rc2b_min_task_floor,False,min_task=0.7772
+rc2b_class2_floor,False,class2=0.7848
+rc2b_class5_floor,True,class5=0.9985
+rc2b_forgetting_controlled,True,forgetting=0.0644

@@ -1,0 +1,24 @@
+check,passed,detail
+policy_level_validation_proxy_available_all_candidates,True,selection_rows=90; expected>=90
+exactly_one_policy_selected_per_seed_task,True,selected_checkpoints=15; expected=15
+no_final_test_used_for_selection_declared,True,selection trace marks no_final_test_used_for_selection=True for every candidate row.
+rc2b_at_least_fixed_rc1b_with_tolerance,False,RC2b=0.8788; RC1b=0.8857; delta=-0.0069
+rc2b_beats_best_replay_margin,True,RC2b=0.8788; best_replay=0.8361
+rc2b_within_tolerance_of_best_deployable_mmals,False,RC2b=0.8788; best_mmals=0.8957; best=paired_proto_global_head_ce_kl_guard_035
+rc2b_min_task_floor,False,min_task=0.7358
+rc2b_class2_floor,False,class2=0.7696
+rc2b_class4_boundary_floor,True,class4=0.8533
+rc2b_class5_floor,True,class5=0.9942
+rc2b_forgetting_controlled,False,forgetting=0.0958
+rc2c_risk_aware_selector_enabled,True,RC2c risk-aware validation selector is enabled for this profile.
+rc2c_selection_audit_columns_present,True,"present=['proxy_min_task', 'proxy_old_task_min', 'proxy_task_acc_std', 'selection_reason', 'raw_best_variant', 'best_guarded_variant']; required=['proxy_min_task', 'proxy_old_task_min', 'proxy_task_acc_std', 'selection_reason', 'raw_best_variant', 'best_guarded_variant']"
+rc2c_selection_reason_recorded,True,"selected_reason_counts={'keep_rc1b_anchor_reject_override': 13, 'override_rc1b_anchor_with_margin_and_floors': 2}"
+rc3b_hydro_audit_metrics_present,True,"present=['hydro_latent_drift_Dz', 'hydro_turbulence_score', 'hydro_audit_memory_only']; required=['hydro_latent_drift_Dz', 'hydro_turbulence_score', 'hydro_audit_memory_only']"
+rc3b_hydro_audit_uses_validation_memory_only,True,Hydro audit rows are marked memory-only; final test is not used for selection/audit metrics.
+rc3b_selected_policy_hydro_turbulence_reported,True,selected_policy_mean_hydro_turbulence=1.1429211451559762
+rc2h_selector_final_alignment_to_best_deployable,False,RC2H=0.8788; best_deployable=0.8957; tol=0.005
+rc2h_class2_robustness_floor,False,class2=0.7696; target>=0.80
+rc2h_class5_preservation_floor,True,class5=0.9942; target>=0.90
+rc2h_tri_boundary_min_floor,True,"tri_min=0.7696; tri_gap=0.2246; target>=0.75; classes=(2,4,5)"
+rc2h_tri_boundary_balance_gap,True,tri_gap=0.2246; target<= 0.30
+rc2h_selection_reason_audit_present,True,selection_reason is present in policy-selection trace.

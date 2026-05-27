@@ -1,0 +1,8 @@
+check,passed,detail
+rc1b_above_true_guard,True,RC1b=0.9057; true_guard=0.8919
+rc1b_above_finetune,True,RC1b should beat naive fine-tuning.
+rc1b_min_task_strong,True,min_task=0.8292
+rc1b_forgetting_controlled,True,forgetting=0.0558
+rc1b_class2_not_collapsed,True,class2=0.8312
+rc1b_class5_preserved,True,class5=0.9967
+rc1b_competitive_with_best_baseline,True,RC1b=0.9057; best_competitor=0.8919
