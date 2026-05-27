@@ -4,8 +4,8 @@
 Research article and reproducibility package for MMALS: a mycelium-inspired continual-learning program moving from functional route memory to auditable inferred-context learning, with v0.x-to-v1.1-RC2H evidence, baseline comparisons, and child-level explanations for each milestone.
 
 <p align="center">
-  <a href="./paper/MMALS_Full_Story_PhD_Article_ready.pdf">
-    <img src="https://img.shields.io/badge/Open-High%20Level%20View-0B5FFF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Open High Level View PDF">
+  <a href="./paper/MMALS_Full_Story_PhD_Article.pdf">
+    <img src="https://img.shields.io/badge/Open-Article-0B5FFF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Open PDF">
   </a>
 </p>
 
