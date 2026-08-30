@@ -22,7 +22,7 @@ metrics/
 notebooks/
   latest RC2H notebook, when available
 docs/
-  selected evidence PDFs, when available
+  selected evidence PDFs, program notes, and chronicle entries
 raw_evidence/
   original evidence ZIPs used for metrics and traceability
 ```
@@ -39,6 +39,29 @@ The latest conclusion is that a future **RC2I dual-anchor conservative selector*
 - `proto_global_head_ce_kl_guard_035` / true CE-KL guarded global head
 
 and should prevent context-only global policies from overriding the safe anchor family in evidence/robust modes unless much stronger validation evidence exists.
+
+## Program extension — 24 August 2026
+
+A new **research-program hypothesis** has been recorded without changing the validated core claim or displacing RC2I qualification:
+
+> Explore whether MMALS can become the smallest explainable inference system that remains dynamically sufficient for previously demonstrated situations and adapts to new evidence with the least justified structural growth.
+
+Candidate lifecycle:
+
+```text
+REUSE -> ADAPT -> FORK -> CANDIDATE NEW REGIME -> VERIFY -> REMEMBER
+                                  |
+                                  +-> later MERGE / PRUNE / RETIRE when justified
+```
+
+The direction introduces a falsifiable **minimal sufficient dynamic inference / complexity-on-evidence** principle, a benchmark-specific non-regression competence contract, dynamic-compatibility distances, local domains of validity, and explicit tests against fixed MoE, always-update, always-expand, replay and standard continual-learning baselines.
+
+It also records research bridges to sampling/reconstruction, observability, local-to-global constraints, differential geometry, stochastic dynamics, deterministic chaos, attractors/committors, and information-preserving compression. These are candidate mathematical tools and analogies, **not evidence that the domains are equivalent**.
+
+- Program note: [`docs/program/MMALS_DYNAMIC_MINIMAL_INFERENCE_PROGRAM_2026-08-24.md`](docs/program/MMALS_DYNAMIC_MINIMAL_INFERENCE_PROGRAM_2026-08-24.md)
+- Chronicle entry: [`docs/chronicle/2026-08-24_dynamic_minimal_inference.md`](docs/chronicle/2026-08-24_dynamic_minimal_inference.md)
+
+The note also keeps the term **world model** bounded: this MMALS direction is world-model-like only if future experiments establish explicit predictive transition dynamics and, where relevant, action-conditioned consequences useful for prediction, planning, or control.
 
 ## Build instructions
 
@@ -71,7 +94,7 @@ The BibTeX file is included for future editing, but the current paper also conta
 
 ## Next research step
 
-Before strong public claims, run:
+The program extension above is **parallel** to, not a replacement for, the current evidence sequence. Before strong public claims, run:
 
 ```text
 RC2I smoke -> RC2I evidence -> RC2I robust on FashionMNIST
@@ -79,6 +102,8 @@ then multi-dataset robust qualification:
 MNIST, FashionMNIST, RotatedMNIST, PermutedMNIST
 then v0.11-style comparative campaign with cost, parameters, runtime, memory, forgetting, and auditability.
 ```
+
+Only after the current line is closed reproducibly should the dynamic-minimal-inference extension start with controlled regime-shift experiments, false regime-birth tests, and comparisons of `reuse/adapt/fork/new-regime` against simpler baselines.
 
 ## Suggested citation
 
